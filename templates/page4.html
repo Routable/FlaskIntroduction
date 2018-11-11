@@ -1,0 +1,18 @@
+{% extends "sitelayout.html" %}
+{% block content %}
+<div style="margin-left:20px">
+<h1> You also never talked about iframe exploits.</h1>
+<h2>And how having sameorigin set can stop them to an extent.</h2>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/owsfdh4gxyc" frameborder="0" allowfullscreen id="die"></iframe>
+</div>
+
+<script>
+function diediedie(){
+    document.getElementById('die').src="http://sup3rhax0rcrd7tcrd.com/";
+}
+
+window.onload = diediedie;
+
+</script>
+
+{% endblock %}

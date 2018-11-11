@@ -1,0 +1,14 @@
+{% extends "sitelayout.html" %}
+{% block content %}
+
+<div style="margin-left:20px">
+<h1> Oh boy, here's a javascript browser bomb example.</h1>
+
+<a href="#" onclick="die()"><h2>I thought about executing this resursively on page load, but instead I let you toggle it.</h2></a>
+<script>
+function die () {
+  setTimeout(function () {die(); die()}, 0)
+}
+</script>
+</div>
+{% endblock %}
