@@ -2,6 +2,5 @@
 <h1>Introduction to Flask</h1>
 Lab as per: https://github.com/MattFritter/COSC419/tree/master/Labs/Lab8
 
-This is a quick and dirty introduction to Flask, which can be used to quickly get a site up and running. 
-
+Exploring some of the additional Flask functions that we discussed in-class, and creating a method to automatically deploy the project via Bash. 
 
